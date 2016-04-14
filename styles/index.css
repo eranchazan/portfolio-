@@ -1,0 +1,87 @@
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: beige;
+}
+ h1 {
+ 	font-family: perpetua;
+	font-style: italic; 
+	width:100px;
+	height:100px;
+	font-style: bold;
+	position:relative inline;
+	bottom: -90px;
+	margin-left: 500px;
+	margin-top: 100px;
+    
+ }
+
+div.info {
+	padding: 1em 0 0.1em 0;
+	clear: both;
+	border-style: solid;
+    border-width: 5px;
+	border-color: rgba(17, 230, 245, 0.5); 
+	border-radius: 12px;
+	background-color: rgba(84, 4, 120, 0.5); 
+	text-align: center;
+	font-family: perpetua;
+	font-style: italic; 
+	width:100px;
+	height:50px;
+	float: left;
+	font-style: bold;
+	position: relative;
+	bottom: -80px;
+	margin:2px;
+	
+	}
+
+
+
+div.top-div {
+	clear: both;
+	position: fixed;
+	top 0;
+	height: 10%;
+	width: 100%;
+	background-color: white;
+}
+
+div.bottom-div {
+  clear: both;
+  position: fixed;
+  height: 90%;
+  width: 50;	
+}
+
+a {
+position: block;
+font-size: 12px;
+font-style: serif; 
+float: right;
+padding-right: 1em;
+
+}
+
+div.circular {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	margin-left: 475px;
+	background:url(../images/eran.jpeg);
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	
+
+}
+	
+		
+	
+
+
+
