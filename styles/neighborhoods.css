@@ -1,0 +1,64 @@
+body {
+	background-color: white;
+}
+
+#title {
+  text-align: center;
+  font-size: 30px;
+}	
+
+#oakland {
+  height: 80px;
+  width: 720px;
+  background-repeat: no-repeat;
+  border: solid 1px black;
+  margin: 50px auto 50px auto;
+  background-image: url("../images/oakland_neighborhoods.png");
+}
+
+  #toronto{
+  height: 80px;
+  width: 720px;
+  background-repeat: no-repeat;
+  border: solid 1px black;
+  margin: 50px auto 50px auto;
+  background-image: url("../images/toronto_neighborhoods.png");
+}
+
+ #cape_town {
+  height: 80px;
+  width: 720px;
+  background-repeat: no-repeat;
+  border: solid 1px black;
+  margin: 50px auto 50px auto;
+  background-image: url("../images/cape_town_neighborhoods.png");
+}
+
+#cairo { 
+  height: 80px;
+  width: 720px;
+  background-repeat: no-repeat;
+  border: solid 1px black;
+  margin: 50px auto 50px auto;
+  background-image: url("../images/cairo_neighborhoods.png");
+} 
+
+#ho_chi_minh {
+  height: 80px;
+  width: 720px;
+  background-repeat: no-repeat;
+  border: solid 1px black;
+  margin: 50px auto 50px auto;
+  background-image: url("../images/ho_chi_minh_neighborhoods.png");
+}
+
+
+ 
+
+
+	
+		
+	
+
+
+
