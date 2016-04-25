@@ -9,28 +9,56 @@ h1 {
 	font-family: Garamond;
 }
 
+h4 {
+	/*margin: -15px 0px -15px 0px;*/
+}
+
 .project {
 	margin: auto;
 	position; center;
 	background-color: beige;
 	height: 200px;
 	width: 300px;
-	border: black solid 2px;
-	margin: 10px 10px 10px 10px;	
+	margin: 0px 0px 0px 0px;	
 }
 
 .left {
 	margin: auto;
 	float: left;
 	margin-left: 100px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 .right {
 	float: right;
 }
 
+#sf-jeru.project {
+	background-image: url("../images/sf-jeru.png");
+	background-size: cover;
+}
 
+#osm.project {
+	background-color: white;
+	background-image: url("../images/osm_nyc.png");
+	background-repeat: no-repeat;
+    background-position:  center center;
+}
+
+#ldarch.project {
+	background-image: url("../images/ldarch.png");
+	background-size: cover;
+}
+
+#neighborhood.project {
+	background-image: url("../images/neighborhood.png");
+	background-size: cover;
+}
+
+#bloc_jams.project {
+	background-image: url("../images/bloc-jams.png");
+	background-size: cover;
+}
 
 
 
