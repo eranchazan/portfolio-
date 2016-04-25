@@ -1,0 +1,36 @@
+h1 {
+	margin-left: 410px;
+	font-style: italic;
+	/*font-family: Hoefler Text;*/
+	/*font-family: Times New Roman;*/
+	/*font-family: Baskerville Full Stack;*/
+	/*font-family: Baskerville;*/
+	/*font-family: Baskerville Old Face;*/
+	font-family: Garamond;
+}
+
+.project {
+	margin: auto;
+	position; center;
+	background-color: beige;
+	height: 200px;
+	width: 300px;
+	border: black solid 2px;
+	margin: 10px 10px 10px 10px;	
+}
+
+.left {
+	margin: auto;
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+
+.right {
+	float: right;
+}
+
+
+
+
+
