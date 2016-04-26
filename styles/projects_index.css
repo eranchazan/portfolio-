@@ -10,8 +10,21 @@ h1 {
 }
 
 h4 {
-	/*margin: -15px 0px -15px 0px;*/
+	margin: 0px 0px 0px 0px;
 }
+
+a {
+	color:  grey;
+	text-decoration: none;
+	font-family: Garamond;
+	/*font-style: italic;*/
+}
+
+
+a #osm {
+	margin: -0px 0px -17px 0px;
+	}
+
 
 .project {
 	margin: auto;
