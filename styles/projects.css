@@ -5,15 +5,16 @@ a {
 	color: grey;
 	text-decoration: none;
 	font-family: Garamond;
-	/*font-style: italic;*/
 }
 
+
 h1 {
+	position: relative;
 	text-align:center;
 	margin-bottom: 20px;
 	font-style: italic;
 	/*font-family: Hoefler Text;*/
-	/*font-family: Times New Roman;*/
+	font-family: Times New Roman;
 	/*font-family: Baskerville Full Stack;*/
 	/*font-family: Baskerville;*/
 	/*font-family: Baskerville Old Face;*/
@@ -26,13 +27,20 @@ h4 {
 	white-space: nowrap;
 }
 
+
 .project {
 	margin: auto;
 	position: relative;
-	background-color: white;
+	background-color: blue;
 	height: 200px;
 	width: 300px;
-	margin: 13px 0px 0px 0px;	
+	margin: 7px 0px 0px 0px;	
+}
+.project:hover {
+	text-decoration: none;
+	height: 230px;
+	width: 330px;
+	box-shadow: 10px 10px 5px #888888;
 }
 
 .left {
@@ -54,6 +62,7 @@ h4 {
 	background-image: url("../images/osm_nyc.png");
 	background-repeat: no-repeat;
     background-position:  center center;
+    background-size: cover;
 }
 
 #ldarch.project {
@@ -63,7 +72,9 @@ h4 {
 
 #neighborhood.project {
 	background-image: url("../images/neighborhood.png");
+	background-position:  center center;
 	background-size: cover;
+	
 }
 
 #bloc_jams.project {
