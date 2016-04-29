@@ -32,6 +32,16 @@ h2 {
 	position: inline;
 	margin-left: 100px;
 	width: 300px;
+	display: inline-block;
+}
+
+h5 {
+	margin-top: -29px;
+	margin-left: 125px;
+	font-style: italic bold;
+	font-family: Garamond;
+
+
 }
 
   a.about {
