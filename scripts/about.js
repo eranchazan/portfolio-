@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-	$('a.about').hover(function() {
+	$('#left a.about').hover(function() {
 		$(this).animate({
 			opacity: 0.25
 		}, 500)

@@ -1,9 +1,12 @@
 body {
 	background-color: beige;
 }
+input {
+        max-width: 100%;
+    } 
 
 #wrapper {
-	width: 90%
+	width: 90%;
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -25,27 +28,56 @@ a:nth-child(2) {
 a:nth-child(3) {
 	text-decoration: none;
 }
+
 a:nth-child(4) {
 	text-decoration: none;
 }
+
 h1 {
+	position: absolute;
 	position: relative;
 	text-align:center;
+	margin-left: -10px;
 	margin-bottom: 20px;
 	font-style: italic;
+	font-family: Garamond;
+	color: grey;
 	/*font-family: Hoefler Text;*/
-	font-family: Times New Roman;
 	/*font-family: Baskerville Full Stack;*/
 	/*font-family: Baskerville;*/
 	/*font-family: Baskerville Old Face;*/
-	font-family: Garamond;
-	color: grey;
+	
 }
 
 h4 {
 	margin: 0px 0px 0px 0px;
 	white-space: nowrap;
 }
+
+.row #bottom {
+ /*margin-left: -50px;*/
+ margin-right: 40px;
+}
+
+ a.about {
+  	/*text-shadow:;*/
+ 	color: black; 
+    text-decoration: none;
+ 	font-family: serif;
+ 	font-style: italic;
+ 	font-size: 23px;
+ 	font-weight: bold;
+ 	margin-top: 0.5em;
+  	vertical-align: center;
+ 	opacity: 0.8;
+ 	float:left;
+ 	clear: left;
+ 	margin-left:auto;
+    margin-right:auto;
+   /* margin-top: -10px;*/
+    display:center;
+    margin-bottom: 10px;
+ }
 
 .project {
 	margin: auto;
@@ -63,11 +95,18 @@ h4 {
 }
 
 .left {
+	margin-left:auto;
+    margin-right:20px;
+    display:center;
 	float: left;
 }
 
 .right {
 	float: right;
+	margin-left:20px;
+    margin-right: auto;
+    display:center;
+	float: left;
 }
 
 #sf-jeru.project {
