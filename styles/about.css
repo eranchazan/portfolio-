@@ -1,10 +1,15 @@
+#wrapper {
+	width: 90%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+
 body {
 	background-color: beige;
 }
 
 .circle {
-
-/*margin-bottom: 100%;*/
 margin-right: 20px;
 border-radius: 50%;
 float: left;
@@ -25,11 +30,7 @@ h1 {
 	/*font-family: Baskerville Old Face;*/
 	
 }
-#wrapper {
-	width: 90%;
-	max-width: 100%;
-	margin: 0 auto;
-}
+
 
 a.about {
 	color: black; 
@@ -44,7 +45,7 @@ a.about {
  	float:left;
  	clear: left;
  	margin-bottom: 10px;
- 	margin-left:auto;
+ 	margin-left:-35px;
     margin-right:auto;
     display:center;
 }
