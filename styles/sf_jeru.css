@@ -1,0 +1,10 @@
+body {
+	background-attachment: scroll;
+	margin-top: 520px;
+	background-image: url("../jerusalem-sf.png");
+	background-repeat: no-repeat;
+    background-position:  center center;
+    background-size: 100%;
+  /*  height: 100%;*/
+}
+
