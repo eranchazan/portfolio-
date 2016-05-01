@@ -1,0 +1,33 @@
+body {
+background-color: beige;
+}
+
+h3 {
+	/*margin: auto auto auto auto;*/
+	margin: 200px auto 2px 350px;
+	font-family: Hoefler Text;
+	font-style: bold;
+}
+
+#wrapper {
+	width: 90%;
+	max-width: 1200px; 
+	min-width:300px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+ a.about {
+ 	color: black; 
+    text-decoration: none;
+ 	font-family: serif;
+ 	font-style: italic;
+ 	font-size: 23px;
+ 	font-weight: bold;
+ 	float:left;
+ 	clear: left;
+ 	margin-top: 3em;
+ 	/*margin-left: 50px;*/
+ 	margin-bottom: -20px;
+ 	opacity: 0.8;
+ }
