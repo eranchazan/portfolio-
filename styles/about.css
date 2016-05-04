@@ -1,12 +1,44 @@
 #wrapper {
 	width: 90%;
-	max-width: 100%;
+	max-width: 1200px; 
+	min-width:300px;
 	margin: 0 auto;
+	margin-bottom: 60px;
 }
 
+p {
+	text-indent: 50px;
+} 
 
 body {
 	background-color: beige;
+	margin-right: 100px;
+}
+
+#about {
+	color: grey;
+	font-family: Hoefler Text;
+	font-style: italic;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 10px;	
+}
+a.about {
+	margin-right:auto;
+	margin-top: 0.5em;
+	margin-left:-35px;
+	margin-bottom: 10px;
+	color: black; 
+    text-decoration: none;
+ 	font-family: serif;
+ 	font-style: italic;
+ 	font-size: 23px;
+ 	font-weight: bold;
+  	vertical-align: center;
+ 	opacity: 0.8;
+ 	float:left;
+ 	clear: left;
+    display:center;
 }
 
 .circle {
@@ -16,11 +48,12 @@ float: left;
 }
 
 h1 {
+	display: inline-block;
 	position: absolute;
 	position: relative;
 	text-align:center;
 	margin-left: -10px;
-	margin-bottom: 20px;
+	margin-bottom: -10px;
 	font-style: italic;
 	font-family: Garamond;
 	color: grey;
@@ -28,25 +61,7 @@ h1 {
 	/*font-family: Baskerville Full Stack;*/
 	/*font-family: Baskerville;*/
 	/*font-family: Baskerville Old Face;*/
-	
 }
 
 
-a.about {
-	color: black; 
-    text-decoration: none;
- 	font-family: serif;
- 	font-style: italic;
- 	font-size: 23px;
- 	font-weight: bold;
- 	margin-top: 0.5em;
-  	vertical-align: center;
- 	opacity: 0.8;
- 	float:left;
- 	clear: left;
- 	margin-bottom: 10px;
- 	margin-left:-35px;
-    margin-right:auto;
-    display:center;
-}
 

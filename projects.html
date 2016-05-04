@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Projects</title>
+	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Let's Internet Explorer know which version's engine to render the page with-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Prevents the mobile browser from shrinking the page down to whatever will fire on your phone therefore showing wrong break points and font size. Here we set the width to the natual width, and 1 (or 100%) to prevent any shrinking that the device will  normaly do-->
@@ -14,32 +15,41 @@
 </head>
 <body>
 <div id="wrapper">
- <div class="container">
+<div class="container-fluid">
       <h1>Projects</h1>
- <div class="row">
- <div class="col-xs-0.5">
-   <div class='left'>
-	<div id="bottom">
-		<a class='about' href="about.html">About</a>
-		<!-- <a class='about' href="contact.html">Contact</a> -->
-		<a class='about' href="index.html">Index</a>
-	</div>
-   </div>
-   </div>	
-  <div class="row">
-  <div class="col-xs-5.5">
-   	<div class='left'>
-	<a href="neighborhoods.html">
-		<div id='neighborhood' class='project'>
-		</div>
-		<h4>Metropolitan Neighborhoods Maps</h4>
+ <div class="row-fluid">
+ <div class="col-xs-1">
+	<a class='about' href="index.html">Index</a>
+	<a class='about' href="about.html">About</a>
+  </div>	
+  </div>
+ <div class="row-fluid">
+ <div class="col-xs-5">
+ 	<a href="neighborhoods.html">
+		  <div id='neighborhood' class='project'>
+		  </div>
+		  <h4>Metropolitan Neighborhoods Maps</h4>
 	</a>
+		
 	<a href="ldarch254.pdf">
 		<div id='ldarch' class='project'>	
 		</div>
 		<h4>Evaluating Economic Risk for Agricultural Land<br>
 		 Use in the San Joaquin Delta </h4>
 	</a>
+	<a href="bloc_jams/index.html">
+		 <div id='bloc_jams' class='project'></div>	
+		<h4>Bloc Jams</h4>
+	</a>
+	<a href="">
+		<div class='project'>	
+	   </div>
+	   <h4>Project 2 HTML/CSS/JS/Leaflet/mapbox</h4>
+	</a>
+   </div>	
+   </div>
+	<div class="row-fluid">
+    <div class="col-xs-5">
 	<a href="https://www.youtube.com/watch?v=Jg2m7jM-gg8&start=897">
 	   <div id='osm' class='project'>
 	   </div>
@@ -50,29 +60,18 @@
 	   </div>
 	   <h4>San Francisco-Jerusalem Overlay Map</h4>
 	</a>
-   </div>
-   </div>	
-   <div class="row">
-   <div class="col-xs-5.5">
-   <div class="right">
-	  <a href="bloc_jams/index.html">
-		<div id='bloc_jams' class='project'>
-		</div>	
-		<h4>Block Jams</h4>
-	</a>
+	</div>
+	</div>
+	<div class="row-fluid">
+    <div class="col-xs-4">
 	<a href="">
 	   <div class='project'>
 	   </div>
 	   <h4>Project 1 HTML/CSS/JS/Leaflet/mapbox</h4>
 	</a>
-	<a href="">
-		<div class='project'>	
-	   </div>
-	   <h4>Project 2 HTML/CSS/JS/Leaflet/mapbox</h4>
-	</a>
+	 
    </div>
-   </div>	
-   </div>
+   </div>		
 </div>
 </div>	
 </body>
