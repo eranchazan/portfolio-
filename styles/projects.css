@@ -1,14 +1,12 @@
 body {
 	background-color: beige;
+	min-width:800px;
 }
-input {
-        max-width: 100%;
-    } 
 
 #wrapper {
-	width: 95%;
+	/*width: 95%;*/
 	max-width: 1200px; 
-	min-width:300px;
+	/*min-width:300px;*/
 	margin: 0 auto;
 	margin-bottom: 60px;
 }
@@ -38,7 +36,7 @@ a:nth-child(4) {
 
 h1 {
 	text-align:center;
-	margin-left: -138px;
+	margin-left: -140px;
 	margin-bottom: 20px;
 	font-style: italic;
 	font-family: Garamond;
@@ -55,10 +53,6 @@ h4 {
 	white-space: nowrap;
 }
 
-.row #bottom {
- 
- margin-right: 40px;
-}
 
  a.about {
  	color: black; 
@@ -79,39 +73,26 @@ h4 {
  }
 
 .project {
-	margin: auto;
 	position: relative;
 	background-color: blue;
 	height: 200px;
 	width: 300px;
 	margin: 7px 0px 0px 0px;	
 }
+
 .project:hover {
 	text-decoration: none;
 	height: 230px;
 	width: 330px;
 	box-shadow: 10px 0px 5px #888888;
 }
-
-.left {
-	margin-left:auto;
-    margin-right:20px;
-    display:center;
-	float: left;
-}
-
-.right {
-	float: right;
-	margin-left:20px;
-    margin-right: auto;
-    display:center;
-	float: left;
+#project_1.project {
+	margin-top: 39px;
 }
 
 #sf-jeru.project {
 	background-image: url("../images/sf-jeru.png");
 	background-size: cover;
-	margin-bottom: 0px;
 }
 
 
@@ -141,4 +122,5 @@ h4 {
 	background-image: url("../images/bloc-jams.png");
 	background-size: cover;
 }
+
 
