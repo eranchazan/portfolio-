@@ -1,4 +1,11 @@
 
 body {
 	background-image: url("../ho_chi_minh.png");
+	background-position: center center;
+	background-size: 1600px;
+	background-repeat: no-repeat;
+    height: 1200px;
+    width: 1300px;
+    left: 100px;
+
 }

@@ -2,8 +2,9 @@ body {
 	/*background-attachment: scroll;*/
 	/*margin-top: 520px;*/
 	background-image: url("../oakland.png");
+	background-position: center ;
+	background-size: cover;
 	background-repeat: no-repeat;
-    /*background-position:  /*center center;*/
-   /* background-size: 100%;*/
- /*   height: 100%;*/
+    height: 1200px;
+    width: 1200px;
 }
