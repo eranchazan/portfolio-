@@ -118,6 +118,12 @@ h4 {
 	
 }
 
+#neighborhood-interface.project {
+	background-image: url("../images/neighborhood-interface.png");
+	background-position:  center center;
+	background-size: cover;
+}
+
 #bloc_jams.project {
 	background-image: url("../images/bloc-jams.png");
 	background-size: cover;
