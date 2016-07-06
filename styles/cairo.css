@@ -1,7 +1,7 @@
 body {
 	background-image: url("../cairo.png");
-	background-position: center left ;
-	background-size: cover;
+	background-position: center  left;
+	/*background-size: cover;*/
 	background-repeat: no-repeat;
     height: 1200px;
     width: 1700px;

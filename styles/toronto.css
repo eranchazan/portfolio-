@@ -1,7 +1,7 @@
 body {
 	color: beige;
 	background-image: url("../toronto.png");
-	background-position: center left;
+	background-position: center ;
     background-size: cover;
 	background-repeat: no-repeat;
     height: 1200px;
