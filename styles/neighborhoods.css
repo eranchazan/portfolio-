@@ -10,7 +10,7 @@ body {
   font-family: Baskerville;
   text-align: center;
   font-size: 30px;
-  margin-bottom: -30px;
+  margin-bottom: -20px;
   text-align: center;
 }	
 
@@ -24,7 +24,7 @@ body {
   font-weight: bold;
   float:left;
   clear: left;
-  margin-top: 2.5em;
+  margin-top: 2.0em;
   margin-left: 50px;
   margin-bottom: -20px;
   opacity: 0.8;
@@ -35,7 +35,7 @@ body {
   width: 720px;
   background-repeat: no-repeat;
   border: solid 1px black;
-  margin: 50px auto 50px auto;
+  margin: 25px auto 50px auto;
   background-image: url("../images/oakland_neighborhoods.png");
 }
 
@@ -47,6 +47,17 @@ body {
   margin: 50px auto 50px auto;
   background-image: url("../images/toronto_neighborhoods.png");
 }
+ #box   {
+  font-style: Times;
+  font-size: 12px;
+  height: 170px;
+  width: 175px;
+  background-color: beige;
+  border-style: solid;
+  border-color: grey;
+  text-align: center;
+  margin: 35px auto 25px auto;
+ }
 
  #cape_town {
   height: 80px;
