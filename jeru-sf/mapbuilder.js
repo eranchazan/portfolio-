@@ -45,7 +45,7 @@ map.setView([37.762225, -122.448687],12);
 function style(feature) {
     if(feature.properties.Entity == 'East Jerusalem'){	
     	return {
-           color: '	#FF6600',
+         color: '#FF6600',
          weight: 2.5,
          opacity: 0.9,
          fillOpacity: 0.1
