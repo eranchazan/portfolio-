@@ -1,24 +1,31 @@
 html, body, #map{
-     height: 96.5%;
+     height: 97.5%;
      width: 100%;
      margin: 0;
      padding: 0;
      background-color: #FCFAFB;
     }
 
+
 #cities {
-	font-size: 19px;
+	position: inline;
+	font-size: 18px;
 	/*background-color: beige;*/
     }
 
 #cities #jeru {
-	
 	text-align: center;
 	font-style: Times New Roman;
 }
 
 
 #cities #sf {
+	text-align: center;
+	font-style: Times New Roman;
+}
+
+#cities #title {
+	width: 200px;
 	text-align: center;
 	font-style: Times New Roman;
 }
