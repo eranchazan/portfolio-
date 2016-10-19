@@ -88,6 +88,12 @@ h4 {
 	background-size: cover;
 }
 
+#israel.project {
+	background-image: url("../images/israel.png");
+	background-position:  center center;
+	background-size: cover;
+	
+}
 
 #osm.project {
 	background-color: white;
